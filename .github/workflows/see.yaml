@@ -1,0 +1,4 @@
+- name: Install dependencies: Another named step.
+run: npm install: This executes a shell command within the runner environment.
+- name: Run tests: Another named step.
+run: npm test: Executes the test command for the project.
